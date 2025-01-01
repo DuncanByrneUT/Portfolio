@@ -7,7 +7,7 @@ const contact = document.getElementById('contact');
 
 // Header content
 header.innerHTML = `
-    <h1>John Doe</h1>
+    <h1>Duncan Byrne</h1>
     <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -22,14 +22,38 @@ about.innerHTML = `
     <p>I'm a passionate web developer with experience in JavaScript, HTML, and CSS.</p>
 `;
 
-// Projects section
+// JS Projects 
 projects.innerHTML = `
     <h2>Projects</h2>
     <ul>
-        <li><strong>Project 1:</strong> Description</li>
-        <li><strong>Project 2:</strong> Description</li>
+        <li>
+            <strong>Project 1- JavaScript:</strong> 
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="path/to/project1-image.jpg" alt="Project 1 Image" style="width:100px; height:auto;">
+            </a>
+        </li>
+        <li>
+            <strong>Project 2 - JavaScript :</strong> 
+            <a href="https://example.com/project2" target="_blank" rel="noopener noreferrer">
+                <img src="path/to/project2-image.jpg" alt="Project 2 Image" style="width:100px; height:auto;">
+            </a>
+        </li>
+        <li>
+            <strong>Project 3 - Python:</strong> 
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="path/to/project1-image.jpg" alt="Project 1 Image" style="width:100px; height:auto;">
+            </a>
+        </li>
+        <li>
+            <strong>Project 4 Python:</strong> 
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="path/to/project1-image.jpg" alt="Project 1 Image" style="width:100px; height:auto;">
+            </a>
+        </li>
     </ul>
 `;
+
+
 
 // Skills section
 skills.innerHTML = `
@@ -44,6 +68,6 @@ skills.innerHTML = `
 // Contact section
 contact.innerHTML = `
     <h2>Contact</h2>
-    <p>Email: john.doe@example.com</p>
+    <p>Email: duncanbyrne69@outlook.com</p>
     <p>Phone: (123) 456-7890</p>
 `;
