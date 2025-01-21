@@ -27,31 +27,28 @@ projects.innerHTML = `
     <h2>Projects</h2>
     <ul>
         <li>
-            <strong>Project 1- JavaScript:</strong> 
-            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/project1-image.jpg" alt="Project 1 Image" style="width:100px; height:auto;">
+            <strong>Project 1- Natural Disaster Data Analysis - Python:
+            Click image for GitHub Repo.</strong> 
+            <a href="https://github.com/DuncanByrneUT/NaturalDisasterDataAnalysis" target="_blank" rel="noopener noreferrer">
+                <img src="images/Screenshot 2025-01-13 at 1.37.11 PM.png" alt="Project 1 Image" style="width:500px; height:auto; display: block; margin-top: 10px;">
             </a>
         </li>
         <li>
-            <strong>Project 2 - JavaScript :</strong> 
-            <a href="https://example.com/project2" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/project2-image.jpg" alt="Project 2 Image" style="width:100px; height:auto;">
+            <strong>Project 2 - Dogs and Kanye - JavaScript: Click image for Webpage.</strong> 
+            <a href="https://duncanbyrneut.github.io/Dogs-Kanye/" target="_blank" rel="noopener noreferrer">
+                <img src="images/Screenshot 2025-01-12 at 8.58.07 PM.png" alt="Project 2 Image" style="width:450px; height:auto; display: block; margin-top: 10px;">
             </a>
         </li>
         <li>
-            <strong>Project 3 - Python:</strong> 
-            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/project1-image.jpg" alt="Project 1 Image" style="width:100px; height:auto;">
+            <strong>Project 3 - Internet Usage Dashboard - Python: Click image for GitHub Repo.</strong> 
+            <a href="https://github.com/DuncanByrneUT/Internet-Usage" target="_blank" rel="noopener noreferrer">
+                <img src="images/Screenshot 2025-01-14 at 3.57.36 PM.png" alt="Project 1 Image" style="width:450px; height:auto; display: block; margin-top: 10px;">
             </a>
         </li>
-        <li>
-            <strong>Project 4 Python:</strong> 
-            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/project1-image.jpg" alt="Project 1 Image" style="width:100px; height:auto;">
-            </a>
-        </li>
-    </ul>
+
 `;
+
+
 
 
 
@@ -62,12 +59,19 @@ skills.innerHTML = `
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
+        <li>Python</li>
+        <li>MongDB</li>
+        <li>SQL</li>
+        <li>React.JS</li>
+        <li>CSS</li>
     </ul>
 `;
 
 // Contact section
+// <p<a href = "https://github.com/DuncanByrneUT"></a></p>
 contact.innerHTML = `
     <h2>Contact</h2>
     <p>Email: duncanbyrne69@outlook.com</p>
-    <p>Phone: (123) 456-7890</p>
+    
+    <p><a href="https://github.com/DuncanByrneUT">GitHub Profile</a></p>
 `;
