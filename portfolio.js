@@ -19,7 +19,13 @@ header.innerHTML = `
 // About section
 about.innerHTML = `
     <h2>About Me</h2>
-    <p>I'm a passionate web developer with experience in JavaScript, HTML, and CSS.</p>
+    <p>Hi, I'm Duncan, a passionate web developer from Long Island, NY. I kicked off my tech career by obtaining a Web Development Certificate from Columbia University, which grounded me in the latest tools and practices of the field.
+
+Following my certification, I took on the role of System Operations Associate at Wells Fargo, where I was part of the support team dedicated to assisting stock traders. This position involved writing Linux scripts and monitoring trades that could potentially cause issues, enhancing my problem-solving capabilities and system reliability in a high-pressure environment.
+
+My passion is deeply rooted in creating projects that tackle real-world problems. I aim to produce solutions that not only work well but also make a significant impact. Whether it's improving user experiences, boosting website performance, or developing applications with a purpose, I'm driven by the challenge of simplifying complex issues.
+
+Beyond coding, I'm always eager to learn new technologies, explore new programming languages, or ideate on my next project that could change the status quo. If you're looking for someone who's committed to making a difference through technology, let's connect and turn our ideas into reality</p>
 `;
 
 // JS Projects 
@@ -63,7 +69,10 @@ skills.innerHTML = `
         <li>MongDB</li>
         <li>SQL</li>
         <li>React.JS</li>
-        <li>CSS</li>
+        <li>Linux</li>
+        <li>Git</li>
+        <li>GitHub</li>
+
     </ul>
 `;
 
